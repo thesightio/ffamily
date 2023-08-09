@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+
+body {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: $gray;
+}
+
+.full-screen {
+  min-height: 100vh;
+}
+
+a {
+  color: $red;
+  text-decoration: none;
+
+  &:hover, &:active {
+    color: lighten($red, 10);
+  }
+}
